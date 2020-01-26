@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 20vh;
+  background-color: green;
+}
+
+header {
+  background-color: #2FC1B9;
+}
+
+nav {
+  margin-top: 2vh;
+  padding: 2vh 0;
+  background-color: #E0014D;
+}
+nav ul {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+main {
+  background-color: #2F4859;
+  padding: 0 2vw;
+}
+
+footer {
+  background-color: #131B21;
+}
+
+.mainframe {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.textstyle-heading {
+  font-family: "Barlow", sans-serif;
+}
+
+.head-row {
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vh 2vw;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=basestyle.css.map */
