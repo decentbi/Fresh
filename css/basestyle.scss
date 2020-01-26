@@ -1,3 +1,4 @@
+@use 'base';
 @import url('https://fonts.googleapis.com/css?family=Barlow:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
@@ -6,51 +7,71 @@
   padding : 0;
   }
 
+a {
+  color : base.$color_turquise;
+  }
+
 
 body {
-  display               : grid;
-  grid-template-columns : 1fr;
-  grid-template-rows    : auto auto 20vh;
-  background-color      : green;
+
+  background-color : black /* base.$color_background;*/
   }
 
 header {
-  background-color : #2FC1B9;
+  background-color : base.$color_turquise;
+  justify-content  : space-between;
+  min-height       : 20vh;
   }
 
 nav {
   ul {
+	list-style-type : none;
 	justify-content : space-evenly;
 	flex-wrap       : wrap;
 	}
 
   margin-top       : 2vh;
   padding          : 2vh 0;
-  background-color : #E0014D;
+  background-color : base.$color_magenta;
   }
 
 main {
-  background-color : #2F4859;
+  background-color : base.$color_steel_blue;
   padding          : 0 2vw;
+  min-height       : 80vh;
+
+  div {
+	margin : 20px;
+	}
   }
 
 footer {
-  background-color : #131B21;
+  background-color : base.$color_background;
   }
 
 .mainframe {
-  max-width : 1500px;
+  max-width : 1300px;
   margin    : auto;
   }
 
-.textstyle-heading {
-  font-family : 'Barlow', sans-serif;
+.grid-conatiner {
+  display               : grid;
+  grid-template-columns : 1fr;
+  grid-template-rows    : auto auto auto;
+  }
+
+.text-heading {
+  text-align : center;
   }
 
 .head-row {
   align-items     : center;
   justify-content : space-between;
   padding         : 1vh 2vw;
+  }
+
+.contact {
+  margin : auto;
   }
 
 .flex-column {
@@ -63,8 +84,10 @@ footer {
   flex-direction : row;
   }
 
+.textstyle-heading {
+  font-family : 'Barlow', sans-serif;
+  }
 
-
-
-
-
+.textstyle-text {
+  font-family : 'Open Sans', sans-serif;
+  }

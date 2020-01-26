@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9199963b-2251-42d2-ad16-693da2f0f5bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/basestyle.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="9199963b-2251-42d2-ad16-693da2f0f5bb" name="Default Changelist" comment="Initial commit attempt no.2">
+      <change afterPath="$PROJECT_DIR$/css/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/basestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/basestyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/basestyle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/basestyle.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/basestyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/basestyle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +79,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580069026127</updated>
-      <workItem from="1580069028437" duration="4866000" />
+      <workItem from="1580069028437" duration="7594000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit attempt no.2">
+      <created>1580073951355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580073951355</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit attempt no.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit attempt no.2" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1580075610503">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580075610503" />
     <state x="599" y="320" key="EditFileWatcherDialog" timestamp="1580072967732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -121,9 +119,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580069028628" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580069741350">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580075328531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580069741350" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580075328531" />
   </component>
 </project>

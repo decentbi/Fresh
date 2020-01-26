@@ -5,15 +5,18 @@
   padding: 0;
 }
 
+a {
+  color: #2FC1B9;
+}
+
 body {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto 20vh;
-  background-color: green;
+  background-color: black;
 }
 
 header {
   background-color: #2FC1B9;
+  justify-content: space-between;
+  min-height: 20vh;
 }
 
 nav {
@@ -22,6 +25,7 @@ nav {
   background-color: #E0014D;
 }
 nav ul {
+  list-style-type: none;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -29,6 +33,10 @@ nav ul {
 main {
   background-color: #2F4859;
   padding: 0 2vw;
+  min-height: 80vh;
+}
+main div {
+  margin: 20px;
 }
 
 footer {
@@ -36,18 +44,28 @@ footer {
 }
 
 .mainframe {
-  max-width: 1500px;
+  max-width: 1300px;
   margin: auto;
 }
 
-.textstyle-heading {
-  font-family: "Barlow", sans-serif;
+.grid-conatiner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+.text-heading {
+  text-align: center;
 }
 
 .head-row {
   align-items: center;
   justify-content: space-between;
   padding: 1vh 2vw;
+}
+
+.contact {
+  margin: auto;
 }
 
 .flex-column {
@@ -58,6 +76,14 @@ footer {
 .flex-row {
   display: flex;
   flex-direction: row;
+}
+
+.textstyle-heading {
+  font-family: "Barlow", sans-serif;
+}
+
+.textstyle-text {
+  font-family: "Open Sans", sans-serif;
 }
 
 /*# sourceMappingURL=basestyle.css.map */
