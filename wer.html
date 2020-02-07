@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="CSS/layout.css">
+	<link rel="stylesheet" type="text/css" href="CSS/header.css">
+	<link rel="stylesheet" type="text/css" href="CSS/footer.css">
+
+
+	<title>FRESH.wer</title>
+
+
+</head>
+
+
+<body>
+
+<div id="mainframe" class=" grid-conatiner grid_desktop grid_mobile grid_mobile_menu_hidden">
+	<header class="flex-column">
+		<div class="flex-row head-row">
+			<div class="burger_menu" onclick="function toggleBurgerMenu() {
+				if (document.getElementById('mainframe').classList.contains('grid_mobile_menu_hidden'))
+					{
+						document.getElementById('mainframe').classList.remove('grid_mobile_menu_hidden');
+						document.getElementsByTagName('nav')[0].classList.remove('mobile_hidden');
+						document.getElementsByTagName('nav')[0].classList.remove('mobile_hidden');
+						document.getElementById('mainframe').classList.add('grid_mobile_menu_shown');
+					}
+				else{
+						document.getElementById('mainframe').classList.remove('grid_mobile_menu_shown');
+						document.getElementsByTagName('nav')[0].classList.add('mobile_hidden');
+						document.getElementById('mainframe').classList.add('grid_mobile_menu_hidden');
+				}
+			}
+			toggleBurgerMenu()"
+			>
+				III
+			</div>
+			<div class="title">
+				<!--				<img src="">-->
+				<h1 class="textstyle-heading">F.R.E.S.H. - jung, bunt, aktiv</h1>
+			</div>
+
+			<div class="social-media-banner flex-row">
+				<div class="sm-link-container">
+					<a class="facebook" href="facebook.de">
+						<svg focusable="false"
+							 xmlns="http://www.w3.org/2000/svg"
+							 viewBox="0 0 512 512"
+						>
+							<path fill="currentColor"
+								  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+							/>
+						</svg>
+					</a>
+				</div>
+				<div class="sm-link-container">
+					<a class="instagram" href="instagramm.de">
+						<svg focusable="false"
+							 xmlns="http://www.w3.org/2000/svg"
+							 viewBox="0 0 448 512"
+						>
+							<path fill="currentColor"
+								  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+							/>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<nav class="textstyle-heading mobile_hidden">
+		<ul class="flex-row">
+			<li><a class="hover-blue" href="wer.html">.wer</a></li>
+			<li><a class="hover-magenta" href="#Wofuer_wir_stehen">.was</a></li>
+			<li><a class="hover-blue" href="#Wofuer_wir_stehen">.blog</a></li>
+			<li><a class="hover-magenta" href="#Wofuer_wir_stehen">.events</a></li>
+			<li><a class="hover-blue" href="#Wofuer_wir_stehen">.unterstützen</a></li>
+		</ul>
+	</nav>
+
+	<main class="flex-column">
+		<div>
+			<h2 id="Wer_wir_sind" class="textstyle-heading text-heading">Wer wir sind</h2>
+			<div class="textstyle-text">
+				Wir sind eine bunt zusammengewürfelte Truppe aus jungen Menschen die eines verbindet, der Wille etwas in
+				Moosburg zu verändern und voran zu bringen. Wir haben uns formiert weil wir uns keine Heimat bei den
+				alteingessessenen Parteien gefunden haben und es vieles gibt, dass wir denken, das man in Moosburg zum
+				besseren verändern könnte.
+			</div>
+		</div>
+
+		<div>
+			<h2 id="Wofuer_wir_stehen" class="textstyle-heading text-heading">Wofür wir stehen</h2>
+			<div class="textstyle-text">
+				Small-Letter
+
+				dieser text hat eigentlich gar keinen wirklichen inhalt. aber er hat auch keine relevanz, und deswegen
+				ist
+				das egal. er dient lediglich als platzhalter. um mal zu zeigen, wie diese stelle der seite aussieht,
+				wenn
+				ein paar zeilen vorhanden sind. ob sich der text dabei gut fühlt, weiß ich nicht. ich schätze, eher
+				nicht,
+				denn wer fühlt sich schon gut als platzhalter. aber irgendwer muss diesen job ja machen und deshalb kann
+				ich
+				es nicht ändern . ich könnte dem text höchstens ein bisschen gut zureden, dass er auch als platzhalter
+				eine
+				wichtige rolle spielt und durchaus gebraucht wird. könnte mir vorstellen, dass ihm das gut tut. denn das
+				gefühl gebraucht zu werden tut doch jedem gut, oder? klar, er ist austauschbar. das darf ich ihm
+				natürlich
+				nicht verraten. denn austauschbar zu sein, dass ist schrecklich. austauschbar zu sein bedeutet ja
+				eigentlich, dass nicht man selbst, sondern einfach irgendjemand oder irgendwas an der stelle gebraucht
+				wird.
+				somit würde mein erstes argument, man braucht dich, nicht mehr ziehen, und das zuvor erzeugte gute
+				gefühl
+				des textes wäre zunichte gemacht. das will ich nicht. also bitte nix verraten, ja? aber vielleicht merkt
+				er
+				es ja nicht. das wäre gut, denn wer hat schon lust einen deprimierten blindtext auf seiner seite zu
+				platzieren. was würde denn das für einen eindruck machen. das will ja keiner lesen. somit wäre er dann
+				ein
+				für alle mal tatsächlich völlig nutzlos. das wäre sein todesurteil. soweit wollen wir es doch nicht
+				kommen
+				lassen, oder? es sei denn, und das ist möglich, er würde wiedergeboren und käme als, naja, sagen wir als
+				witz, und ein textleben später vielleicht als bildzeitungsartikel auf die textwelt. irgendwann wäre er
+				vielleicht sogar ein text im lexikon. dann hätten wir ihn ja sogar weitergebracht in seiner entwicklung.
+				klingt gar nicht schlecht, oder? trotzdem bin ich der meinung, man sollte ihn nicht bewusst dort hin
+				treiben. er hat ein recht darauf, sich selbst zu entwickeln. und zwar in genau dem tempo, das ihm
+				gefällt.
+				und bis es soweit ist, nehme ich ihn eben an, wie er ist. als einfachen blindtext ohne wirklichen
+				inhalt.
+			</div>
+		</div>
+		<i class="fab fa-facebook"></i>
+	</main>
+
+	<footer>
+		<div class="contact">
+			<h3>Kontakt:</h3>
+			fresh.moosburg@gmail.com
+		</div>
+		<div class="licensing">
+			<a href="https://fontawesome.com/license">FB-Icon</a>
+			<a href="https://fontawesome.com/license">Instagram-Icon</a>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

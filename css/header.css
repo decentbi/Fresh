@@ -1,18 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-}
-
-*::selection {
-  color: #E0014D;
-}
-
-body {
-  background-color: black;
-}
-
+@import url("https://fonts.googleapis.com/css?family=Barlow:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 header {
   background-color: #131B21;
   justify-content: space-between;
@@ -36,6 +25,12 @@ nav ul {
   list-style-type: none;
 }
 
+@media screen and (max-width: 700px) {
+  .mobile_hidden {
+    display: none;
+  }
+}
+
 main {
   background-color: #131B21;
   color: #EEEEEE;
@@ -48,31 +43,6 @@ main div {
 
 footer {
   background-color: #131B21;
-}
-
-.hover-blue:hover {
-  color: #2FC1B9;
-}
-
-.hover-magenta:hover {
-  color: #E0014D;
-}
-
-.mainframe {
-  margin: auto;
-  max-width: 900px;
-  min-height: 100vh;
-}
-
-.grid-conatiner {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 30vh 10vh 50vh 10vh;
-}
-@media screen and (max-width: 700px) {
-  .grid-conatiner {
-    grid-template-rows: 20vh 10vh auto auto;
-  }
 }
 
 .social-media-banner {
@@ -115,26 +85,4 @@ footer {
   margin-left: 10%;
 }
 
-.contact {
-  margin: auto;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.textstyle-heading {
-  font-family: "Barlow", sans-serif;
-}
-
-.textstyle-text {
-  font-family: "Open Sans", sans-serif;
-}
-
-/*# sourceMappingURL=basestyle.css.map */
+/*# sourceMappingURL=header.css.map */
