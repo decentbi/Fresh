@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+*::selection {
+  color: #E0014D;
+}
+
 body {
   background-color: black;
 }
@@ -15,10 +19,15 @@ header {
 }
 
 nav {
-  background-color: #2F4859;
+  background-color: #131B21;
   padding: 2vh 0;
 }
 nav a {
+  color: #EEEEEE;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a:hover {
   color: #E0014D;
 }
 nav ul {
@@ -28,7 +37,9 @@ nav ul {
 }
 
 main {
-  background-color: #EEEEEE;
+  background-color: #131B21;
+  color: #EEEEEE;
+  overflow: auto;
   padding: 0 2vw;
 }
 main div {
@@ -39,16 +50,24 @@ footer {
   background-color: #131B21;
 }
 
+.hover-blue:hover {
+  color: #2FC1B9;
+}
+
+.hover-magenta:hover {
+  color: #E0014D;
+}
+
 .mainframe {
   margin: auto;
-  max-width: 1200px;
+  max-width: 900px;
   min-height: 100vh;
 }
 
 .grid-conatiner {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 15vh 10vh auto auto;
+  grid-template-rows: 30vh 10vh 50vh 10vh;
 }
 @media screen and (max-width: 700px) {
   .grid-conatiner {

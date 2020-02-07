@@ -8,6 +8,10 @@
   padding : 0;
   }
 
+*::selection {
+  color : base.$color_magenta;
+  }
+
 
 body {
 
@@ -21,10 +25,16 @@ header {
 
 
 nav {
-  background-color : base.$color_steel_blue;
+  background-color : base.$color_background;
   padding          : 2vh 0;
 
   a {
+	color           : base.$color_gray;
+	font-weight     : bold;
+	text-decoration : none;
+	}
+
+  a:hover {
 	color : base.$color_magenta;
 	}
 
@@ -32,11 +42,14 @@ nav {
 	flex-wrap       : wrap;
 	justify-content : space-evenly;
 	list-style-type : none;
+
 	}
   }
 
 main {
-  background-color : base.$color_gray;
+  background-color : base.$color_background;
+  color            : base.$color_gray;
+  overflow         : auto;
   //min-height       : 70vh;
   padding          : 0 2vw;
 
@@ -49,16 +62,24 @@ footer {
   background-color : base.$color_background;
   }
 
+.hover-blue:hover {
+  color : base.$color_turquise;
+  }
+
+.hover-magenta:hover {
+  color : base.$color_magenta;
+  }
+
 .mainframe {
   margin     : auto;
-  max-width  : 1200px;
+  max-width  : 900px;
   min-height : 100vh;
   }
 
 .grid-conatiner {
   display               : grid;
   grid-template-columns : 1fr;
-  grid-template-rows    : 15vh 10vh auto auto;
+  grid-template-rows    : 30vh 10vh 50vh 10vh;
   @media screen and (max-width : 700px) {
 	grid-template-rows : 20vh 10vh auto auto;
 	}
