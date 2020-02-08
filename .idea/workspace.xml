@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9199963b-2251-42d2-ad16-693da2f0f5bb" name="Default Changelist" comment="kleine Korrekturen">
+    <list default="true" id="9199963b-2251-42d2-ad16-693da2f0f5bb" name="Default Changelist" comment="remove .idea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
