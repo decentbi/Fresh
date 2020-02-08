@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9199963b-2251-42d2-ad16-693da2f0f5bb" name="Default Changelist" comment="Version A besprochen am 07.02.2020 im 3 Tannen">
-      <change afterPath="$PROJECT_DIR$/css/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/header.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/was.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wer.html" afterDir="false" />
+    <list default="true" id="9199963b-2251-42d2-ad16-693da2f0f5bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/basestyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/basestyle.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/basestyle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/was.html" beforeDir="false" afterPath="$PROJECT_DIR$/was.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wer.html" beforeDir="false" afterPath="$PROJECT_DIR$/wer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -68,6 +67,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="I:/7_Public/73_Transfer/Azubis/2019 Lahrjahr/PS_Memory" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
@@ -115,7 +115,8 @@
       <workItem from="1580368818700" duration="88000" />
       <workItem from="1581101303674" duration="2577000" />
       <workItem from="1581108200692" duration="455000" />
-      <workItem from="1581108779083" duration="4991000" />
+      <workItem from="1581108779083" duration="5401000" />
+      <workItem from="1581159771113" duration="3591000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit attempt no.2">
       <created>1580073951355</created>
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581108638876</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Umstrukturierung der Webseite,&#10;&#10;TODO: grid weg?">
+      <created>1581114932253</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581114932253</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,23 +184,25 @@
     <MESSAGE value="End of day commit" />
     <MESSAGE value="Bis auf Inhalt fertig. simple responsive" />
     <MESSAGE value="Version A besprochen am 07.02.2020 im 3 Tannen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version A besprochen am 07.02.2020 im 3 Tannen" />
+    <MESSAGE value="Umstrukturierung der Webseite,&#10;&#10;TODO: grid weg?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Umstrukturierung der Webseite,&#10;&#10;TODO: grid weg?" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="324" y="129" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581103345348">
-      <screen x="0" y="0" width="1739" height="939" />
+    <state x="358" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581163059682">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="324" y="129" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1739.939@0.0.1739.939" timestamp="1581103345348" />
+    <state x="358" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581163059682" />
     <state x="641" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581109619158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="641" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581109619158" />
-    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1581109667025">
+    <state x="598" y="119" key="CommitChangelistDialog2" timestamp="1581114931507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2394" y="130" key="CommitChangelistDialog2/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580313304778" />
     <state x="542" y="107" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1581108637287" />
-    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581109667025" />
+    <state x="598" y="119" key="CommitChangelistDialog2/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581114931507" />
     <state x="543" y="289" key="EditFileWatcherDialog" timestamp="1580123428388">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -221,21 +231,21 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="625" y="318" key="cloudConfig.SelfSettingsDialog/0.0.1739.939@0.0.1739.939" timestamp="1580123286600" />
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1581108779730">
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1581159771841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@0.0.1739.939" timestamp="1580310709944" />
     <state x="2450" y="332" key="com.intellij.ide.util.TipDialog/0.0.1739.939/1920.26.1522.912@1920.26.1522.912" timestamp="1580368840386" />
     <state x="605" y="315" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1581108233900" />
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581108779730" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581159771841" />
     <state x="694" y="324" key="git4idea.merge.GitPullDialog" timestamp="1581108863923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="694" y="324" key="git4idea.merge.GitPullDialog/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581108863923" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581110180864">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581162086253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="203" width="672" height="613" key="search.everywhere.popup/0.0.1739.939@0.0.1739.939" timestamp="1580215124951" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581110180864" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581162086253" />
   </component>
 </project>

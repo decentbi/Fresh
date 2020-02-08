@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.contact {
+  margin: auto;
+}
+
+footer {
+  background-color: #131B21;
+}
+
+.foot_row {
+  align-items: center;
+  height: 100%;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 100%;
+}
+.foot_row a {
+  color: #EEEEEE;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,23 +1,18 @@
 @use 'base';
 
 
-.contact {
-  margin : auto;
-  }
-
-footer {
+nav {
   background-color : base.$color_background;
+  padding          : 2vh 0;
   }
 
-.foot_row {
-  align-items     : center;
-  height          : 100%;
+.nav_row {
   justify-content : space-evenly;
   list-style-type : none;
-  width           : 100%;
 
   a {
 	color           : base.$color_gray;
+	font-size       : larger;
 	font-weight     : bold;
 	text-decoration : none;
 	}

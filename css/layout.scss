@@ -1,11 +1,9 @@
 @use 'base';
-@import url('https://fonts.googleapis.com/css?family=Barlow:700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
 
 * {
-  margin  : 0;
-  padding : 0;
+  font-family : base.$font_family_text;
+  margin      : 0;
+  padding     : 0;
   }
 
 *::selection {
@@ -32,53 +30,56 @@ footer {
   grid-area : foot;
   }
 
-.flex-column {
+.flex_column {
   display        : flex;
   flex-direction : column;
   }
 
-.flex-row {
+.flex_row {
   display        : flex;
   flex-direction : row;
   }
 
-.grid-conatiner {
+.grid_conatiner {
   display               : grid;
-  grid-template-columns : 1fr 1fr;
+  grid-template-areas   : "head" "nav" "main" "foot";
+  grid-template-columns : 1fr;
+  grid-template-rows    : 30vh 10vh 57vh 3vh;
   }
 
-.grid_desktop {
-  grid-template-rows  : 30vh 10vh 50vh 10vh;
-  grid-template-areas : "head head" "nav nav" "main main" "foot foot";
-  @media screen and (max-width : 700px) {
+//.grid_desktop {
+//  grid-template-columns : 1fr 1fr;
+//  grid-template-rows  : 30vh 10vh 50vh 10vh;
+//  grid-template-areas : "head head" "nav nav" "main main" "foot foot";
+//  @media screen and (max-width : 700px) {
+//
+//	}
+//  }
+//
+//.grid_mobile {
+//  @media screen and (max-width : 700px) {
+//	grid-template-rows : 30vh 50vh 10vh;
+//	}
+//  }
+//
+//.grid_mobile_menu_hidden {
+//  @media screen and (max-width : 700px) {
+//	grid-template-areas : "head head" "main main" "foot foot";
+//	}
+//  }
+//
+//.grid_mobile_menu_shown {
+//  @media screen and (max-width : 700px) {
+//	grid-template-areas : "nav head" "nav main" "nav foot";
+//	}
+//  }
 
-	}
-  }
 
-.grid_mobile {
-  @media screen and (max-width : 700px) {
-	grid-template-rows : 30vh 50vh 10vh;
-	}
-  }
-
-.grid_mobile_menu_hidden {
-  @media screen and (max-width : 700px) {
-	grid-template-areas : "head head" "main main" "foot foot";
-	}
-  }
-
-.grid_mobile_menu_shown {
-  @media screen and (max-width : 700px) {
-	grid-template-areas : "nav head" "nav main" "nav foot";
-	}
-  }
-
-
-.hover-blue:hover {
+.hover_blue:hover {
   color : base.$color_turquise;
   }
 
-.hover-magenta:hover {
+.hover_magenta:hover {
   color : base.$color_magenta;
   }
 
@@ -88,11 +89,13 @@ footer {
   min-height : 100vh;
   }
 
-.textstyle-heading {
-  font-family : 'Barlow', sans-serif;
+.mobile_hidden {
+  @media screen and (max-width : 700px) {
+    display : none;
+    }
   }
 
-.textstyle-text {
-  font-family : 'Open Sans', sans-serif;
+.textstyle_heading {
+  font-family : base.$font_family_heading;
   }
 

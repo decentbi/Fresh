@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+main {
+  background-color : #131B21;
+  color            : #EEEEEE;
+  overflow         : auto;
+  padding          : 0 2vw;
+  }
+
+main div {
+  margin : 20px;
+  }
+
+/*# sourceMappingURL=main.css.map */

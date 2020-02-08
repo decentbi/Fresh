@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+*::selection {
+  color: #E0014D;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  grid-area: head;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: foot;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid_conatiner {
+  display: grid;
+  grid-template-areas: "head" "nav" "main" "foot";
+  grid-template-columns: 1fr;
+  grid-template-rows: 30vh 10vh 57vh 3vh;
+}
+
+.hover_blue:hover {
+  color: #2FC1B9;
+}
+
+.hover_magenta:hover {
+  color: #E0014D;
+}
+
+#mainframe {
+  margin: auto;
+  max-width: 900px;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 700px) {
+  .mobile_hidden {
+    display: none;
+  }
+}
+
+.textstyle_heading {
+  font-family: "Barlow", sans-serif;
+}
+
+/*# sourceMappingURL=layout.css.map */
