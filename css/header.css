@@ -18,13 +18,11 @@ header {
 .sm_link_container {
   margin-right : 2vw;
   }
-
 .sm_link_container svg {
   height      : 80%;
   max-height  : 15vh;
   padding-top : 10%;
   }
-
 .sm_link_container svg path {
   fill : #EEEEEE;
   }
@@ -39,7 +37,6 @@ header {
   justify-content : space-between;
   width           : 100%;
   }
-
 .head_row h1 {
   color : #2FC1B9;
   }
